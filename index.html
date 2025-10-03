@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML sistematico</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background-color: lightyellow;
+		}
+		header{
+			background-color: 218A19;
+			text-align: center;
+			font-family: arial black;
+			height:  50px;
+			width: 100%;
+			color: #F5C227;			
+		}
+		ul,ol{
+			list-style: none;	
+		}
+		.nav{
+			width: 500px;
+			margin: auto;
+		}
+		.nav > li{
+			float: left;
+		}
+		.nav li a{
+			background-color: #000;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 12px;
+			display: block;
+		}
+		.nav li a:hover{
+			background-color: #0F0E0E;
+		}
+		.nav li ul{
+			display: none;
+			position: absolute;
+			min-width: 140px;
+			text-align: left;
+		}
+		.nav li:hover > ul{
+			display: block;
+		}
+		.nav li ul li {
+			position: relative;
+		}
+		.nav li ul li ul{
+			right: -140px;
+			top: 0px;
+		}
+		nav{
+			border: 1px solid black ;
+			background-color: #000000;
+			text-align: center;
+			font-family: arial black;
+			height:  43px;
+			width: 100%;
+		
+		}
+		main{
+			text-align: center;
+			font-family: arial black;
+			min-height:  calc(100vh - 100px);
+			width: 100%;
+			margin-bottom: 10px;
+			display: flex;
+			background-color: 136108;
+		}
+	    article{
+	    	margin: 15px;
+	    	border-radius: 20px;
+			background-color: #136108;
+			text-align: center;
+			font-family: arial black;
+			min-height:  100%px;
+			width: 80%;
+			margin-bottom: 10px;
+		}
+		section{
+			border-radius: 20px;
+			background-color: whitesmoke;
+			text-align: justify;
+			font-family: Baskerville Old Face;
+			width: 90%;
+			margin-bottom: 10px;
+			margin: 20px;
+			margin-top: 20px;
+		}
+		aside{
+			border: 10px ;
+			text-align: left;
+			font-family: arial black;
+			min-height:  100%px;
+			width: 18%;
+			margin-bottom: 10px;
+			margin-left: 15px;
+			padding-top: 10px;
+			padding-left: 15px;
+			position: fixed;
+			right: 0;
+		}
+		footer{
+			border: 1px solid black ;
+			background-color: #76B55E;
+			text-align: center;
+			font-family: arial black;
+			min-height:  50px;
+			width: 100%;
+			margin-bottom: 10px;
+			padding-top: 30px;
+			padding-bottom: 20px;
+			color: D1AAA1;
+			text-shadow: 5px 5px 10px gray;
+		}
+		img{
+			height: 200px;
+			border-radius: 5px;
+			box-shadow: grey 9px 5px 10px;
+		}
+		a{
+           text-decoration: none;
+           color: black;
+           padding-left: 15px;
+
+		}
+
+	</style>
+</head>
+<body>
+	<header> 
+		<h7 style="color: #218A19; text-shadow: 5px 5px 10px grey;" >MI PASAPORTE AL EXITO</h7>
+	<br>
+	<h3 style="color: #218A19; text-shadow: 5px 5px 10px grey ;">Bachillerato en computación con orientacion cientifica</h3>
+	</header>
+		<nav>
+		  <ul class="nav"> 
+			<li><a href="#ser">inicio</a></li>
+			<li><a href="#ini">Sobre la carrera</a></li>
+			<li><a href="#cur">Cursos</a>
+				<ul>
+					<li><a href="#ef">Educacion Fisica</a></li>
+					<li><a href="#it">Inglés Técnico</a></li>
+					<li><a href="#ci">Computación/Instalación</a></li>
+					<li><a href="#cl">Comunicación</a></li>
+					<li><a href="#ff">Fisica</a></li>
+					<li><a href="#id">Matemática</a></li>
+					<li><a href="#cg">Contabilidad</a></li>
+					<li><a href="#es">Estudio Sociales</a></li>
+					<li><a href="#pr">Programación</a></li>
+					<li><a href="#ee">Estadistica</a></li>
+			</ul></li> 
+			<li><a href="#con">LOGO LCM</a></li>
+		</ul>
+	</nav>
+	<main>
+		<article>
+			<section id="ini">
+				<h1 id="sn">SOBRE LA CARRERA</h1>
+				<hr>
+				<h2 id="m">Bachillerato en computación con orientaciónn científica</h2> 
+				<p>El Bachillerato en Computación es un programa educativo de nivel medio (generalmente ofrecido en secundaria o preparatoria en algunos países de América Latina) que combina una formación general con una orientación técnica en informática y tecnología.</p><br>
+				<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnGCBjhYC9CGeOSuGXFuWhL0zoFC6wQJYwUA&s"></center>
+			</section>
+			<section id="pro">
+				<h1 id="cur">CURSOS</h1> 
+				<hr><br>
+				<h2 id="ef">Educación Fisica</h2>
+				<p>La educación física es una disciplina educativa que se centra en el desarrollo integral del cuerpo y la mente a través del movimiento, el juego, el ejercicio y el deporte</p><br>
+				<center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_6NU3kM1ZRxMoSVbD9eXlOlHoN3i65Nk7TQ&s"> </center>
+				<hr><br>
+				<h2 id="it">Inglés Tecnico</h2>
+				<p>La materia de Inglés Técnico se trata del aprendizaje y uso del idioma inglés enfocado en contextos profesionales y técnicos específicos, según la carrera o área de estudio del estudiante. No se centra en el inglés cotidiano o social, sino en el que se usa en entornos laborales, industriales, científicos o académicos.</p><br>
+				<center> <img src="https://play-lh.googleusercontent.com/Xs_GrinVuNFnIEmfGSX6FMJiRRuTS0NFyII2oQvYuUFtJIO1h4miZ0mFY1urJNh0SZZ1=w240-h480-rw">  </center>
+				<hr><br>
+				<h2 id="ci">Computación/Instalación</h2>
+				<p>La computación en instalación de software se refiere al proceso y las técnicas relacionadas con poner un programa o aplicación en funcionamiento dentro de una computadora o dispositivo. En términos simples, es el conjunto de pasos que se siguen para que un software pase de estar en un archivo o paquete descargado a estar listo para usar.</p><br>
+				<center> <img src="https://peru.unir.net/wp-content/uploads/sites/2/2024/12/Ciencias-de-la-computacion-Que-son-y-para-que-sirven.jpg">  </center>
+				<hr><br>
+				<h2 id="cl">Comunicación</h2>
+				<p>La materia de Comunicación y Lenguaje generalmente se enfoca en desarrollar las habilidades para expresar ideas, comprender mensajes y relacionarse efectivamente con otras personas a través del lenguaje.</p><br>
+				<center> <img src="https://chvmpionmind.com/wp-content/uploads/2023/04/Comunicacion.jpg">  </center>
+				<hr><br>
+				<h2 id="ff">Fisica Fundamental</h2>
+				<p>La Física Fundamental es una rama de la física que estudia las leyes básicas y principios que rigen el funcionamiento del universo. Es la base para entender fenómenos naturales desde lo más pequeño (como partículas subatómicas) hasta lo más grande (como galaxias y el cosmos).</p> <br>
+				<center> <img src="https://i.ytimg.com/vi/UW79oEQiLFA/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAVnla8YBv6r-EWSy6-chVWTvrWXQ">  </center>
+				<hr><br>
+				<h2 id="ma">Matemática</h2>
+				<p>Claro, la materia de Matemáticas abarca un conjunto de conocimientos y habilidades relacionadas con el estudio de los números, las cantidades, las estructuras, las formas y los cambios. Es una materia fundamental porque sirve como base para muchas otras disciplinas, desde ciencias hasta economía y tecnología.</p><br>
+				<center> <img src="https://static.vecteezy.com/system/resources/previews/005/449/876/non_2x/mathematics-doodle-hand-drawn-school-set-vector.jpg">  </center>
+				<hr><br>
+				<h2 id="cg">Contabilidad</h2>
+				<p>La contabilidad, como materia, se trata del estudio y la práctica de registrar, clasificar, resumir e interpretar las operaciones financieras y económicas de una empresa o entidad. Su objetivo principal es proporcionar información útil y confiable para la toma de decisiones, tanto internas (como para los gerentes) como externas (como para inversionistas, acreedores, autoridades fiscales, entre otros).</p><br>
+				<center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzK2LISFVrdjpJ84RtDepadJaooR2jYOGfiQ&s">  </center>
+				<hr><br>
+				<h2 id="es">Estudio sociales</h2>
+				<p>Esta materia trata sobre el estudio de la sociedad y las relaciones humanas a través del tiempo y en diferentes lugares. Busca entender cómo funcionan las comunidades, las culturas, las instituciones, la economía, la política y la historia.</p><br>
+				<center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM3dYbVE8mesN4f1-n4LdhIe8Y4XQrZ5Kbjg&s">  </center>
+				<hr><br>
+				<h2 id="pr">Programación</h2>
+				<p>La programación es el estudio y la práctica de crear instrucciones que una computadora pueda entender y ejecutar. En esta materia se aprende a escribir código usando lenguajes específicos (como Python, Java, C++, JavaScript, entre otros) para crear programas, aplicaciones, páginas web, juegos y más.</p><br>
+				<center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExuSXGmwq4v7emo1Fs6XfiwNwLa9DryEXIw&s">  </center>
+				<hr><br>
+				<h2 id="ee">Estadistica</h2>
+				<p>La estadística es la ciencia que se encarga de recolectar, organizar, analizar, interpretar y presentar datos para ayudar a tomar decisiones basadas en información numérica.</p><br>
+				<center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsfD3quyKIAbSpGckKArDIzs2lF_sODq6Zw&s">  </center>
+				<hr>
+			
+			<section id="con">
+				<h1 id="jor">LOGO LCM</h1>
+				<ul>
+
+					<center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxl9ZOjNsaQhz2FgM3cLtBeYvQusFDveMdAA&s">  </center>
+					
+				</ul>
+			</section>
+	</article>
+		<aside>
+			<center>
+			<h5 class="barral">Contenido Relacionado</h5>
+			<hr><br>
+			<h15>liceo compu-market</h5></center>
+			<br><br>
+			<ol>
+				<li><a href="https://www.facebook.com/LiceoCM/?locale=es_LA" target="blank">Facebook</a></li>
+				<li><a href="https://liceocompumarket.wordpress.com/about/" target="blank">Nuestra pagina</a></li>
+				<li><a href="https://maps.app.goo.gl/ywoeMkiN513HxLq98" target="blank">Nustra Ubicacion</a></li>
+				<li><a href="https://liceocompumarket.wordpress.com/about/" target="blank">Nuestra historia</a></li>
+			</ol>
+		</aside>
+	</main>
+	<footer>
+		<div class="piepag">
+			<h1>LICEO COMPU-MARKET</h1>
+			<h2>Direccion : 4 Avenida 6-29, Villa Nueva 01064</h2>
+			<h3>Telefono : 6636 0705</h3>
+			<h4>Tu pasaporte al exito</h4>
+		</div>
+	</footer>
+
+</body>
+</html>
